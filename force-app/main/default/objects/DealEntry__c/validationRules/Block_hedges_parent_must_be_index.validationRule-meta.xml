@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Block_hedges_parent_must_be_index</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(
+TEXT(Product_Type__c) = &apos;Block Hedge&apos;, TEXT(Parent__r.Product_Type__c) &lt;&gt; &apos;Index&apos;,  
+FALSE)</errorConditionFormula>
+    <errorDisplayField>Product_Type__c</errorDisplayField>
+    <errorMessage>The parent product for a block hedge must be a index.</errorMessage>
+</ValidationRule>

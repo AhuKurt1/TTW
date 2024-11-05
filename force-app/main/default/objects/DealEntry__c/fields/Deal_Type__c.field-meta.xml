@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deal_Type__c</fullName>
+    <label>Deal Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Add</fullName>
+                <default>false</default>
+                <label>Add</label>
+            </value>
+            <value>
+                <fullName>Amendment</fullName>
+                <default>false</default>
+                <label>Amendment</label>
+            </value>
+            <value>
+                <fullName>Assignment &amp; Assumption</fullName>
+                <default>false</default>
+                <label>Assignment &amp; Assumption</label>
+            </value>
+            <value>
+                <fullName>Blend</fullName>
+                <default>false</default>
+                <label>Blend</label>
+            </value>
+            <value>
+                <fullName>Buyback</fullName>
+                <default>false</default>
+                <label>Buyback</label>
+            </value>
+            <value>
+                <fullName>Conversion</fullName>
+                <default>false</default>
+                <label>Conversion</label>
+            </value>
+            <value>
+                <fullName>Extend</fullName>
+                <default>false</default>
+                <label>Extend</label>
+            </value>
+            <value>
+                <fullName>Incremental</fullName>
+                <default>false</default>
+                <label>Incremental</label>
+            </value>
+            <value>
+                <fullName>New</fullName>
+                <default>true</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Partial Assignment &amp; Assumption</fullName>
+                <default>false</default>
+                <label>Partial Assignment &amp; Assumption</label>
+            </value>
+            <value>
+                <fullName>Renewal</fullName>
+                <default>false</default>
+                <label>Renewal</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

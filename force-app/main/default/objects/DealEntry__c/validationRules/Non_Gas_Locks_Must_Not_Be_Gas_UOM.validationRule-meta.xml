@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_Gas_Locks_Must_Not_Be_Gas_UOM</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(TEXT(Product_Type__c)  &lt;&gt;  &apos;Gas Lock&apos;,
+OR(  
+CONTAINS(UPPER(TEXT(Execution_Price_UOM__c)), &apos;MMBTU&apos;),  CONTAINS(UPPER(TEXT(Credit_Fee_UOM__c)), &apos;MMBTU&apos;),  CONTAINS(UPPER(TEXT(Sales_Margin_UOM__c )), &apos;MMBTU&apos;),  CONTAINS(UPPER(TEXT( Broker_Fee_UOM__c  )), &apos;MMBTU&apos;))
+)</errorConditionFormula>
+    <errorMessage>When your product is not a Gas Lock then you must use a power UOM.</errorMessage>
+</ValidationRule>

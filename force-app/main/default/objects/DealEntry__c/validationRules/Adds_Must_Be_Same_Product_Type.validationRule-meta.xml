@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Adds_Must_Be_Same_Product_Type</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( TEXT(Deal_Type__c) = &apos;Add&apos; ,
+TEXT( Product_Type__c) &lt;&gt; TEXT( Parent__r.Product_Type__c ) , 
+FALSE)</errorConditionFormula>
+    <errorDisplayField>Product_Type__c</errorDisplayField>
+    <errorMessage>When doing an add the parent product type must be the same as this product type.</errorMessage>
+</ValidationRule>

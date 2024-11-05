@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Secondary_Broker_Plan__c</fullName>
+    <description>The type of plan that the secondary broker has for the deal, e.g. Upfront, Upfront/Split Residual, Residual, Holdover</description>
+    <label>Secondary Broker Plan</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Broker_Payment_Plan</valueSetName>
+    </valueSet>
+</CustomField>

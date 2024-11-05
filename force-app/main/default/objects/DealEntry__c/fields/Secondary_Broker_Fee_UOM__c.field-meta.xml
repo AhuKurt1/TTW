@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Secondary_Broker_Fee_UOM__c</fullName>
+    <description>The unit of measurement for secondary broker Margin (e.g. $/MWh or $/kWh)</description>
+    <label>Secondary Broker Fee UOM</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Unit_Of_Measure</valueSetName>
+    </valueSet>
+</CustomField>

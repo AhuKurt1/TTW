@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Commissions_Type__c</fullName>
+    <description>Field added under PBI 160189</description>
+    <label>Commissions Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Product_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Commissions_Type</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Fixed Price</controllingFieldValue>
+            <controllingFieldValue>Index</controllingFieldValue>
+            <controllingFieldValue>REC</controllingFieldValue>
+            <controllingFieldValue>PAR Hedge</controllingFieldValue>
+            <controllingFieldValue>Gas Lock</controllingFieldValue>
+            <controllingFieldValue>PAR</controllingFieldValue>
+            <valueName>Consumption</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fixed Price</controllingFieldValue>
+            <controllingFieldValue>Index</controllingFieldValue>
+            <controllingFieldValue>REC</controllingFieldValue>
+            <controllingFieldValue>Block Hedge</controllingFieldValue>
+            <controllingFieldValue>PAR Hedge</controllingFieldValue>
+            <controllingFieldValue>Gas Lock</controllingFieldValue>
+            <controllingFieldValue>PAR</controllingFieldValue>
+            <valueName>Contracted</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

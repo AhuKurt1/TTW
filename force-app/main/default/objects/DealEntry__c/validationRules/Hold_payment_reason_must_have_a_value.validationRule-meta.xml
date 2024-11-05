@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hold_payment_reason_must_have_a_value</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( Hold_Payment__c ,  ISBLANK(TEXT( Hold_Payment_Reason__c)))</errorConditionFormula>
+    <errorDisplayField>Hold_Payment_Reason__c</errorDisplayField>
+    <errorMessage>If you have selected hold payment, then you must provide a reason.</errorMessage>
+</ValidationRule>

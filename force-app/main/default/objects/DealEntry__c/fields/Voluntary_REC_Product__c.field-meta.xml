@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Voluntary_REC_Product__c</fullName>
+    <label>Voluntary REC Product</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Product_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>National - Any Tech</fullName>
+                <default>false</default>
+                <label>National - Any Tech</label>
+            </value>
+            <value>
+                <fullName>National Green-e</fullName>
+                <default>false</default>
+                <label>National Green-e</label>
+            </value>
+            <value>
+                <fullName>National Hydro</fullName>
+                <default>false</default>
+                <label>National Hydro</label>
+            </value>
+            <value>
+                <fullName>National Wind</fullName>
+                <default>false</default>
+                <label>National Wind</label>
+            </value>
+            <value>
+                <fullName>ISONE Class I</fullName>
+                <default>false</default>
+                <label>ISONE Class I</label>
+            </value>
+            <value>
+                <fullName>MA CES-E</fullName>
+                <default>false</default>
+                <label>MA CES-E</label>
+            </value>
+            <value>
+                <fullName>ME Class II</fullName>
+                <default>false</default>
+                <label>ME Class II</label>
+            </value>
+            <value>
+                <fullName>NY REC</fullName>
+                <default>false</default>
+                <label>NY REC</label>
+            </value>
+            <value>
+                <fullName>PJM EFEC</fullName>
+                <default>false</default>
+                <label>PJM EFEC</label>
+            </value>
+            <value>
+                <fullName>PJM TRI</fullName>
+                <default>false</default>
+                <label>PJM TRI</label>
+            </value>
+            <value>
+                <fullName>TX Project REC</fullName>
+                <default>false</default>
+                <label>TX Project REC</label>
+            </value>
+            <value>
+                <fullName>TX Solar</fullName>
+                <default>false</default>
+                <label>TX Solar</label>
+            </value>
+            <value>
+                <fullName>TX Wind</fullName>
+                <default>false</default>
+                <label>TX Wind</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Fixed Price</controllingFieldValue>
+            <controllingFieldValue>Index</controllingFieldValue>
+            <controllingFieldValue>REC</controllingFieldValue>
+            <valueName>National - Any Tech</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fixed Price</controllingFieldValue>
+            <controllingFieldValue>Index</controllingFieldValue>
+            <controllingFieldValue>REC</controllingFieldValue>
+            <valueName>National Green-e</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fixed Price</controllingFieldValue>
+            <controllingFieldValue>Index</controllingFieldValue>
+            <controllingFieldValue>REC</controllingFieldValue>
+            <valueName>National Hydro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fixed Price</controllingFieldValue>
+            <controllingFieldValue>Index</controllingFieldValue>
+            <controllingFieldValue>REC</controllingFieldValue>
+            <valueName>National Wind</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fixed Price</controllingFieldValue>
+            <controllingFieldValue>Index</controllingFieldValue>
+            <controllingFieldValue>REC</controllingFieldValue>
+            <valueName>ISONE Class I</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fixed Price</controllingFieldValue>
+            <controllingFieldValue>Index</controllingFieldValue>
+            <controllingFieldValue>REC</controllingFieldValue>
+            <valueName>MA CES-E</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fixed Price</controllingFieldValue>
+            <controllingFieldValue>Index</controllingFieldValue>
+            <controllingFieldValue>REC</controllingFieldValue>
+            <valueName>ME Class II</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fixed Price</controllingFieldValue>
+            <controllingFieldValue>Index</controllingFieldValue>
+            <controllingFieldValue>REC</controllingFieldValue>
+            <valueName>NY REC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fixed Price</controllingFieldValue>
+            <controllingFieldValue>Index</controllingFieldValue>
+            <controllingFieldValue>REC</controllingFieldValue>
+            <valueName>PJM EFEC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fixed Price</controllingFieldValue>
+            <controllingFieldValue>Index</controllingFieldValue>
+            <controllingFieldValue>REC</controllingFieldValue>
+            <valueName>PJM TRI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fixed Price</controllingFieldValue>
+            <controllingFieldValue>Index</controllingFieldValue>
+            <controllingFieldValue>REC</controllingFieldValue>
+            <valueName>TX Project REC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fixed Price</controllingFieldValue>
+            <controllingFieldValue>Index</controllingFieldValue>
+            <controllingFieldValue>REC</controllingFieldValue>
+            <valueName>TX Solar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fixed Price</controllingFieldValue>
+            <controllingFieldValue>Index</controllingFieldValue>
+            <controllingFieldValue>REC</controllingFieldValue>
+            <valueName>TX Wind</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

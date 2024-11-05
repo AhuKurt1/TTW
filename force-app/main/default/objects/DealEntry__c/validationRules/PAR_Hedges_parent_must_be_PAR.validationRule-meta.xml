@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PAR_Hedges_parent_must_be_PAR</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(
+TEXT(Product_Type__c) = &apos;PAR Hedge&apos;, TEXT(Parent__r.Product_Type__c) &lt;&gt; &apos;PAR&apos;,  
+FALSE)</errorConditionFormula>
+    <errorDisplayField>Product_Type__c</errorDisplayField>
+    <errorMessage>The parent product for a PAR Hedge must be a PAR.</errorMessage>
+</ValidationRule>

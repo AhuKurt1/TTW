@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>primary_sales_person_must_have_percentag</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( NOT(ISNULL( User__c )),  
+ISBLANK( Primary_Sales_Person_Percentage__c ), FALSE)</errorConditionFormula>
+    <errorDisplayField>Primary_Sales_Person_Percentage__c</errorDisplayField>
+    <errorMessage>If a primary sales person is selected you must have a percentage.</errorMessage>
+</ValidationRule>

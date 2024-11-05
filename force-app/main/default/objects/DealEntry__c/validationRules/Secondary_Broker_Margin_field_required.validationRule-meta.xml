@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Secondary_Broker_Margin_field_required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( RecordType.Name &lt;&gt; &apos;Revenue&apos;, NOT(ISBLANK( Secondary_Broker_Name__c )), ISBLANK( Secondary_Broker_Margin__c ))</errorConditionFormula>
+    <errorDisplayField>Secondary_Broker_Margin__c</errorDisplayField>
+    <errorMessage>Secondary Broker Margin is field required</errorMessage>
+</ValidationRule>

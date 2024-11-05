@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gas_Lock_Parent_Must_Be_Heat_Rate</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(
+TEXT(Product_Type__c) = &apos;Gas Lock&apos;, TEXT(Parent__r.Product_Type__c) &lt;&gt; &apos;Heat Rate&apos;,  
+FALSE)</errorConditionFormula>
+    <errorDisplayField>Product_Type__c</errorDisplayField>
+    <errorMessage>The parent product for a gas lock must be a heat rate.</errorMessage>
+</ValidationRule>

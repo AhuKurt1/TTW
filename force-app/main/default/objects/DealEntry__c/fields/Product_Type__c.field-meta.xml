@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Type__c</fullName>
+    <label>Product Type</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Deal_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fixed Price</fullName>
+                <default>false</default>
+                <label>Fixed Price</label>
+            </value>
+            <value>
+                <fullName>Index</fullName>
+                <default>false</default>
+                <label>Index</label>
+            </value>
+            <value>
+                <fullName>REC</fullName>
+                <default>false</default>
+                <label>REC</label>
+            </value>
+            <value>
+                <fullName>Block Hedge</fullName>
+                <default>false</default>
+                <label>Block Hedge</label>
+            </value>
+            <value>
+                <fullName>PAR Hedge</fullName>
+                <default>false</default>
+                <label>PAR Hedge</label>
+            </value>
+            <value>
+                <fullName>Gas Lock</fullName>
+                <default>false</default>
+                <label>Gas Lock</label>
+            </value>
+            <value>
+                <fullName>PAR</fullName>
+                <default>false</default>
+                <label>PAR</label>
+            </value>
+            <value>
+                <fullName>Heat Rate</fullName>
+                <default>false</default>
+                <label>Heat Rate</label>
+            </value>
+            <value>
+                <fullName>Block and Index</fullName>
+                <default>false</default>
+                <label>Block and Index</label>
+            </value>
+            <value>
+                <fullName>CRR Revenue</fullName>
+                <default>false</default>
+                <label>CRR Revenue</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>Renewal</controllingFieldValue>
+            <controllingFieldValue>Add</controllingFieldValue>
+            <controllingFieldValue>Assignment &amp; Assumption</controllingFieldValue>
+            <controllingFieldValue>Incremental</controllingFieldValue>
+            <controllingFieldValue>Blend</controllingFieldValue>
+            <controllingFieldValue>Conversion</controllingFieldValue>
+            <controllingFieldValue>Partial Assignment &amp; Assumption</controllingFieldValue>
+            <controllingFieldValue>Extend</controllingFieldValue>
+            <valueName>Fixed Price</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>Renewal</controllingFieldValue>
+            <controllingFieldValue>Add</controllingFieldValue>
+            <controllingFieldValue>Assignment &amp; Assumption</controllingFieldValue>
+            <controllingFieldValue>Incremental</controllingFieldValue>
+            <controllingFieldValue>Blend</controllingFieldValue>
+            <controllingFieldValue>Conversion</controllingFieldValue>
+            <controllingFieldValue>Partial Assignment &amp; Assumption</controllingFieldValue>
+            <controllingFieldValue>Extend</controllingFieldValue>
+            <valueName>Index</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>Renewal</controllingFieldValue>
+            <controllingFieldValue>Add</controllingFieldValue>
+            <controllingFieldValue>Assignment &amp; Assumption</controllingFieldValue>
+            <controllingFieldValue>Incremental</controllingFieldValue>
+            <controllingFieldValue>Conversion</controllingFieldValue>
+            <controllingFieldValue>Partial Assignment &amp; Assumption</controllingFieldValue>
+            <controllingFieldValue>Buyback</controllingFieldValue>
+            <valueName>REC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>Renewal</controllingFieldValue>
+            <controllingFieldValue>Add</controllingFieldValue>
+            <controllingFieldValue>Assignment &amp; Assumption</controllingFieldValue>
+            <controllingFieldValue>Incremental</controllingFieldValue>
+            <controllingFieldValue>Conversion</controllingFieldValue>
+            <controllingFieldValue>Partial Assignment &amp; Assumption</controllingFieldValue>
+            <controllingFieldValue>Buyback</controllingFieldValue>
+            <valueName>Block Hedge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>Renewal</controllingFieldValue>
+            <controllingFieldValue>Add</controllingFieldValue>
+            <controllingFieldValue>Assignment &amp; Assumption</controllingFieldValue>
+            <controllingFieldValue>Incremental</controllingFieldValue>
+            <controllingFieldValue>Conversion</controllingFieldValue>
+            <controllingFieldValue>Partial Assignment &amp; Assumption</controllingFieldValue>
+            <valueName>PAR Hedge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>Renewal</controllingFieldValue>
+            <controllingFieldValue>Add</controllingFieldValue>
+            <controllingFieldValue>Assignment &amp; Assumption</controllingFieldValue>
+            <controllingFieldValue>Incremental</controllingFieldValue>
+            <controllingFieldValue>Conversion</controllingFieldValue>
+            <controllingFieldValue>Partial Assignment &amp; Assumption</controllingFieldValue>
+            <valueName>Gas Lock</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>Renewal</controllingFieldValue>
+            <controllingFieldValue>Add</controllingFieldValue>
+            <controllingFieldValue>Assignment &amp; Assumption</controllingFieldValue>
+            <controllingFieldValue>Incremental</controllingFieldValue>
+            <controllingFieldValue>Blend</controllingFieldValue>
+            <controllingFieldValue>Conversion</controllingFieldValue>
+            <controllingFieldValue>Partial Assignment &amp; Assumption</controllingFieldValue>
+            <controllingFieldValue>Extend</controllingFieldValue>
+            <valueName>PAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>Renewal</controllingFieldValue>
+            <controllingFieldValue>Add</controllingFieldValue>
+            <controllingFieldValue>Assignment &amp; Assumption</controllingFieldValue>
+            <controllingFieldValue>Incremental</controllingFieldValue>
+            <controllingFieldValue>Conversion</controllingFieldValue>
+            <controllingFieldValue>Partial Assignment &amp; Assumption</controllingFieldValue>
+            <valueName>Heat Rate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>Renewal</controllingFieldValue>
+            <controllingFieldValue>Add</controllingFieldValue>
+            <controllingFieldValue>Assignment &amp; Assumption</controllingFieldValue>
+            <controllingFieldValue>Incremental</controllingFieldValue>
+            <controllingFieldValue>Conversion</controllingFieldValue>
+            <controllingFieldValue>Partial Assignment &amp; Assumption</controllingFieldValue>
+            <controllingFieldValue>Buyback</controllingFieldValue>
+            <valueName>Block and Index</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>Renewal</controllingFieldValue>
+            <controllingFieldValue>Add</controllingFieldValue>
+            <controllingFieldValue>Assignment &amp; Assumption</controllingFieldValue>
+            <controllingFieldValue>Incremental</controllingFieldValue>
+            <controllingFieldValue>Conversion</controllingFieldValue>
+            <controllingFieldValue>Partial Assignment &amp; Assumption</controllingFieldValue>
+            <controllingFieldValue>Buyback</controllingFieldValue>
+            <valueName>CRR Revenue</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

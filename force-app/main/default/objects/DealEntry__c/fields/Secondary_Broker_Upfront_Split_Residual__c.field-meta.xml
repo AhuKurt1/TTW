@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Secondary_Broker_Upfront_Split_Residual__c</fullName>
+    <description>How the upfront amortization is split, a specified % is applied to upfront and the remaining % is paid out</description>
+    <label>Secondary Broker Upfront Split Residual</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>3</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

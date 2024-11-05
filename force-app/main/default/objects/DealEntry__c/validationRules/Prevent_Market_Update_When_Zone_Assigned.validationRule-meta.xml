@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Market_Update_When_Zone_Assigned</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( ISCHANGED( Market2__c ) , NOT( ISBLANK( Zones__c ) ), AND( $UserRole.Name  &lt;&gt;  &quot;Contract Admin&quot;,$UserRole.Name  &lt;&gt;  &quot;Post-Deal Support&quot;,$UserRole.Name  &lt;&gt;  &quot;Direct Contract Administration&quot;)  )</errorConditionFormula>
+    <errorDisplayField>Market2__c</errorDisplayField>
+    <errorMessage>Market cannot be updated when Zones have any value assigned.</errorMessage>
+</ValidationRule>

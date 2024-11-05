@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Settlement_Location__c</fullName>
+    <defaultValue>IF($RecordType.Name = &apos;Incremental Hedge&apos;, &apos;Trade Hub&apos;, &apos;&apos;)</defaultValue>
+    <label>Settlement Location</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Load Zone</fullName>
+                <default>false</default>
+                <label>Load Zone</label>
+            </value>
+            <value>
+                <fullName>Trade Hub</fullName>
+                <default>false</default>
+                <label>Trade Hub</label>
+            </value>
+            <value>
+                <fullName>Henry Hub</fullName>
+                <default>false</default>
+                <label>Henry Hub</label>
+            </value>
+            <value>
+                <fullName>Houston Ship Channel</fullName>
+                <default>false</default>
+                <label>Houston Ship Channel</label>
+            </value>
+            <value>
+                <fullName>Waha</fullName>
+                <default>false</default>
+                <label>Waha</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

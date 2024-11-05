@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Voluntary_REC_Broker_Fee_UOM_TTW__c</fullName>
+    <label>Voluntary REC Broker Fee UOM</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Unit_Of_Measure</valueSetName>
+    </valueSet>
+</CustomField>

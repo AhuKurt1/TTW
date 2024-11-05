@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Make_Settlement_Location_required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(RecordType.Name = &apos;Incremental Hedge&apos;,   ISPICKVAL(Settlement_Location__c, &apos;&apos;))</errorConditionFormula>
+    <errorDisplayField>Settlement_Location__c</errorDisplayField>
+    <errorMessage>Settlement Location is required</errorMessage>
+</ValidationRule>
